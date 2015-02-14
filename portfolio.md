@@ -6,74 +6,62 @@ permalink: /portfolio/
 
 
 <section class="portfolio-item">
-![Abundance and Health](images/portfolio-images/1450x865/portfolio-abundance.jpg)
-####Lorem ipsum
+![Abundance and Health](/images/portfolio-images/1450x865/portfolio-abundance.jpg)
+####Abundance and Health
 #####dolor sit amet, consectetur
 </section>
 
 <section class="portfolio-item">
-![Alt text](http://placehold.it/350x150)
-####Lorem ipsum
+![Crabshack Deli](/images/portfolio-images/1450x865/portfolio-crabshack.jpg)
+####Crabshack Deli
 #####dolor sit amet, consectetur
 </section>
 
 <section class="portfolio-item">
-![Alt text](http://placehold.it/350x150)
-####Lorem ipsum
+![Use your local](/images/portfolio-images/1450x865/portfolio-uyl.jpg)
+####Use your local
 #####dolor sit amet, consectetur
 </section>
 
 <section class="portfolio-item">
-![Alt text](http://placehold.it/350x150)
-####Lorem ipsum
+![Abundance and Health](/images/portfolio-images/1450x865/portfolio-sds.jpg)
+####SDS Drainage Limited
 #####dolor sit amet, consectetur
 </section>
 
 <section class="portfolio-item">
-![Alt text](http://placehold.it/350x150)
-####Lorem ipsum
+![Devon County Homes](/images/portfolio-images/1450x865/portfolio-dch.jpg)
+####Devon County Homes
 #####dolor sit amet, consectetur
 </section>
 
 <section class="portfolio-item">
-![Alt text](http://placehold.it/350x150)
-####Lorem ipsum
+![Francis Clark](/images/portfolio-images/1450x865/portfolio-fc.jpg)
+####Francis CLark LLP
 #####dolor sit amet, consectetur
 </section>
 
 <section class="portfolio-item">
-![Alt text](http://placehold.it/350x150)
-####Lorem ipsum
+![KE Adventure](/images/portfolio-images/1450x865/portfolio-ke.jpg)
+####Ke Adventure
 #####dolor sit amet, consectetur
 </section>
 
 <section class="portfolio-item">
-![Alt text](http://placehold.it/350x150)
-####Lorem ipsum
+![PSD To HTML Shop](/images/portfolio-images/1450x865/portfolio-psd.jpg)
+####PSD to HTML Shop
 #####dolor sit amet, consectetur
 </section>
 
 <section class="portfolio-item">
-![Alt text](http://placehold.it/350x150)
-####Lorem ipsum
+![Fifa Coin Store](/images/portfolio-images/1450x865/portfolio-fifa.jpg)
+####Fifa Coin Store
 #####dolor sit amet, consectetur
 </section>
 
 <section class="portfolio-item">
-![Alt text](http://placehold.it/350x150)
-####Lorem ipsum
-#####dolor sit amet, consectetur
-</section>
-
-<section class="portfolio-item">
-![Alt text](http://placehold.it/350x150)
-####Lorem ipsum
-#####dolor sit amet, consectetur
-</section>
-
-<section class="portfolio-item">
-![Alt text](http://placehold.it/350x150)
-####Lorem ipsum
+![Speedys](/images/portfolio-images/1450x865/portfolio-speedy.jpg)
+####Speedys
 #####dolor sit amet, consectetur
 </section>
 
