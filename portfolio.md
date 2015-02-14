@@ -10,3 +10,69 @@ permalink: /portfolio/
 ####Lorem ipsum
 #####dolor sit amet, consectetur
 </section>
+
+<section class="portfolio-item">
+![Alt text](http://placehold.it/350x150)
+####Lorem ipsum
+#####dolor sit amet, consectetur
+</section>
+
+<section class="portfolio-item">
+![Alt text](http://placehold.it/350x150)
+####Lorem ipsum
+#####dolor sit amet, consectetur
+</section>
+
+<section class="portfolio-item">
+![Alt text](http://placehold.it/350x150)
+####Lorem ipsum
+#####dolor sit amet, consectetur
+</section>
+
+<section class="portfolio-item">
+![Alt text](http://placehold.it/350x150)
+####Lorem ipsum
+#####dolor sit amet, consectetur
+</section>
+
+<section class="portfolio-item">
+![Alt text](http://placehold.it/350x150)
+####Lorem ipsum
+#####dolor sit amet, consectetur
+</section>
+
+<section class="portfolio-item">
+![Alt text](http://placehold.it/350x150)
+####Lorem ipsum
+#####dolor sit amet, consectetur
+</section>
+
+<section class="portfolio-item">
+![Alt text](http://placehold.it/350x150)
+####Lorem ipsum
+#####dolor sit amet, consectetur
+</section>
+
+<section class="portfolio-item">
+![Alt text](http://placehold.it/350x150)
+####Lorem ipsum
+#####dolor sit amet, consectetur
+</section>
+
+<section class="portfolio-item">
+![Alt text](http://placehold.it/350x150)
+####Lorem ipsum
+#####dolor sit amet, consectetur
+</section>
+
+<section class="portfolio-item">
+![Alt text](http://placehold.it/350x150)
+####Lorem ipsum
+#####dolor sit amet, consectetur
+</section>
+
+<section class="portfolio-item">
+![Alt text](http://placehold.it/350x150)
+####Lorem ipsum
+#####dolor sit amet, consectetur
+</section>
