@@ -8,10 +8,10 @@ Hello I'm Gary a PHP/Web Developer from Devon with around 4 years of commercial 
 
 My current role involves the development of new websites as well as the maintenance, and day to day running of the existing. I am able to work on my own initiative or as a part of a team suporting other members when required. I regularly liaised with project managers to estimate tasks, review progress against project milestones and contribute ideas, techniques and solutions to problems.
 
-##TECHNICAL SKILLS
+##Technical Skills
 Below are a selection web develpment technologies and skills that I mostly, use on a daily basis.
 
-###FRONT END DEVELOPMENT
+####Front End Development
 + AngularJs
 + jQuery
 + Javascript
@@ -21,7 +21,7 @@ Below are a selection web develpment technologies and skills that I mostly, use 
 + Compass
 + Photoshop / Fireworks
 
-###BACK END DEVELOPMENT
+####Back End Development
 + PHP
 + SQL
 + CMS Development
@@ -30,33 +30,33 @@ Below are a selection web develpment technologies and skills that I mostly, use 
 + SSH
 + Linux
 
-## WORK EXPERIENCE
+##WORK EXPERIENCE
 
-### Web Developer
+####Web Developer
 
 [Yello Studio](http://www.yellostudio.co.uk/), Exeter
 
-### WEB DEVELOPER
+####Web Developer
 
 [AB Multimedia](http://www.ab-uk.com/), Exeter
 I currently work as a PHP based web developer for a leading digital agency.
 From 03/2012
 
-### WEB PRODUCER
+####Web Producer
 
 [Accord Group](http://www.accordgroup.co.uk), Barnstaple
 Front end development, HTML, CSS, PHP & MYSQL
 From 06/2011 to 03/2012
 
-## C.I.S TECHNICAL ASSISTANT (Petrok/North Devon college)
+####C.I.S Technical Assistant (Petrok/North Devon college)
 
 [Computer Information Services](https://www.petroc.ac.uk/), Barnstaple
 Support the CIS maintenance rota in providing customer support (in person, phone, email). Create, maintain and update web pages as per identified user requirements (PHP, MYSQL, JS) using CIS standardised practices.
 2009 to 2010
 
-## EDUCATION
+##Education
 
-###UNIVERSITY DEGREE - PLYMOUTH UNIVERSITY
+####Bachelor of science - Plymouth University
 
 BSc Computer Science, Upper second class Honours (2:1)
 From 2009 to 2011
