@@ -28,6 +28,7 @@ There are lots of posts on the internet on how to do install opencv, most would 
 8. Add x86_64 to CMAKE_OSX_ARCHITECTURES, this tells it to compile against the current system
 8. Uncheck WITH_1394
 10. Uncheck WITH_FFMPEG
+11. Click Configure again, then Click Generate.
 
 ```
 - cd <path/to/your/opencv/staticlibs/folder/>
@@ -47,3 +48,12 @@ There are lots of posts on the internet on how to do install opencv, most would 
 9. Uncheck WITH_1394
 10. Uncheck WITH_FFMPEG
 11. Click Configure again, then Click Generate.
+
+```
+- cd <path/to/your/opencv/SharedLibs/folder/>
+- make (This will take awhile)
+- sudo make install
+```
+
+
+There you go, OpenCv should now be installed. 
