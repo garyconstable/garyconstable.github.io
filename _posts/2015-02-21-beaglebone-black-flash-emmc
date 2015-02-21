@@ -3,3 +3,6 @@
 layout: post
 title: How to flash Beaglebone Black eMMC
 ---
+
+If like me you have recently broken your beaglebone black, maybe deleted a file and can not longer SSH in to the device
+this guide may be of some help to you.
