@@ -3,7 +3,7 @@ layout: no-sidebar
 title: Portfolio
 permalink: /portfolio/
 ---
-
+<div class="row">
 
 <section class="portfolio-item col-md-4">
 ![Abundance and Health](/images/portfolio-images/1450x865/portfolio-abundance.jpg)
@@ -54,5 +54,7 @@ permalink: /portfolio/
 ![Speedys](/images/portfolio-images/1450x865/portfolio-speedy.jpg)
 ####Speedys
 </section>
+
+</div>
 
 <div>&nbsp;</div>
