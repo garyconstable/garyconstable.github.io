@@ -2,12 +2,8 @@
 .portfolio-item{
   
   float: left;
-  margin: 0 0 30px 20px;
+  margin-bottom:30px;
   max-width: 350px;
-  
-  &:nth-child(even) {
-    margin-left:0;
-  }
   
   img{
     border: solid 1px #CCCCCC;
