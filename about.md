@@ -3,7 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
-
+<div class="row">
+  <div clas="col-md-8">
 Hello I'm Gary a PHP/Web Developer from Devon with around 4 years of commercial agency experience. I consider myself to be a good all rounder that feels comfortable with either front or backend development.
 
 My current role involves the development of new websites as well as the maintenance, and day to day running of the existing. I am able to work on my own initiative or as a part of a team suporting other members when required. I regularly liaised with project managers to estimate tasks, review progress against project milestones and contribute ideas, techniques and solutions to problems.
@@ -63,3 +64,6 @@ From 2009 to 2011
 
 ## Contact me
 [Gary Constable - Web Developer Exeter](mailto:garyconstable80@gmail.com)
+  </div>
+  {% include sidebar.html %}
+</div>
