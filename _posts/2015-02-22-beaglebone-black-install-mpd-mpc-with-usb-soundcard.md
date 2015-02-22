@@ -22,6 +22,7 @@ cape_enable=capemgr.enable_partno=BB-BONE-AUDI-02
 ```
 
 Next edit you alsa config to load the usb soundcard as device 0
+
 ```
 sudo nano /etc/modprobe.d/alsa-base.conf
 ```
