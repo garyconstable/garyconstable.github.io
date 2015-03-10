@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Upgrade - Install Python Debian (Beaglebone Black)
