@@ -31,3 +31,10 @@ cd Python-2.7.5
 make
 sudo make install
 ```
+
+### Change default Python version
+
+```
+nano ~/.bashrc 
+alias python='/usr/local/bin/python2.7'
+```
