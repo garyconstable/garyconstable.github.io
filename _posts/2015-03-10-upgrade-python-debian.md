@@ -38,3 +38,9 @@ sudo make install
 nano ~/.bashrc 
 alias python='/usr/local/bin/python2.7'
 ```
+
+### Install Setup tools / easy_install
+
+```
+wget https://bootstrap.pypa.io/ez_setup.py -O - | python
+```
