@@ -1,102 +1,340 @@
-<!doctype html>
-<html class="no-js" lang="" ng-app="webApp">
-<head>
-  <link rel="home" href="{{ siteUrl }}" />
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>{% if title is defined %}{{ title }} - {% endif %}{{ siteName }}</title>
-  {#<title>GaryConstable.co.uk - Welcome The Online Portfolio of Gary Constable</title>#}
-  <meta name="description" content="">
-  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  <meta content="black" name="apple-mobile-web-app-status-bar-style">
-  <link rel="stylesheet" href="/assets/css/app.css"> 
-</head>
+  
+{% include 'partials/_header' %}
 
-  <body id="home">	
-    
-    <div ng-controller="indexController"></div>
-    
-    <div id="wrap">
-      
-      <!--[if lt IE 7]>
-        <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-      <![endif]-->
-      
-      {% block nav %}
-      <header class="banner">
-        <nav class="container">
-          <div class="row">
-            <div class="col-xs-12 col-sm-6 col-sm-offset-6 col-lg-4 col-lg-offset-8 hidden-xs">
-              <ul class="nav navbar-nav">
-                <li class=""><a href="#home">home</a></li>
-                <li class=""><a href="#about">about</a></li>
-                <li class=""><a href="#contact">contact</a></li>
-              </ul>
+
+<div class="wrapper" id="wrapper">
+        
+
+  {% block header %}
+    <header>
+      <div class="banner row" id="banner">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd" style="height:100%">
+          <div class="bannerPart">
+            <img src="/assets/images/typing-macbook.jpg" alt="" class="bannerImg"> 
+          </div>
+        </div>
+      </div>
+      <div class="bannerText container">
+        {#
+        <h1>I'm Gary</h1>
+        <h2>I help to make the internet</h2>
+        #}
+        <h1>I'm that guy</h1>
+        <h2>The one, who helps to make the internet</h2>
+      </div>
+      <div class="menu">
+        <div class="navbar-wrapper">
+          <div class="container">
+            <div class="navwrapper">
+              <div class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                    <a class="navbar-brand" href="#">Menu</a> </div>
+                  <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                      <li class="menuItem active"><a href="#wrapper">Home</a></li>
+                      <li class="menuItem"><a href="#aboutme">About</a></li>
+                      <li class="menuItem"><a href="#technical">Skills</a></li>
+                      <li class="menuItem"><a href="#exprience">Experience</a></li>
+                      <li class="menuItem"><a href="#education">Education</a></li>
+                      <li class="menuItem"><a href="#protfolio">Portfolio</a></li>
+                      <li class="menuItem"><a href="#contact">Contact</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </nav>
-      </header>
-      {% endblock %}
-     
-      {% block header %}
-      {% endblock %}
-
-      {% block content %}
-      {% endblock %}
-
-      {% block quotes %}
-        {#<!-- strip -->
-        <div class="quote-container padd-tb-100">
-          <div class="container ">
-            <div class="row">
-              <div class="col-xs-12 text-center">
-                <div class="lipup white"></div>
-                <blockquote>Building creative & effective websites, I specialise in PHP, Modern CMS Development, Angular JS and responsive website development.</blockquote>
-              </div>	
-            </div>	
+        </div>
+      </div>
+    </header>
+  {% endblock %}
+      
+    
+  {% block content %}
+    
+  
+    {% block about %}
+      <section class="aboutme" id="aboutme">
+        <div class="container">
+          <div class="heading">
+            <h2>About me</h2>
+            <p>A small introduction about my self</p>
+          </div>
+          <div class="row">
+            <div class=" col-xs-12 col-sm-12 col-md-7 col-lg-7">
+              <h3>Jonathan Doe</h3>
+              <h4 class="subHeading">Webdesigner & Web Developer from Melbourne</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.  cillum dolore eu fugiat nulla pariatur. olore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+              <p>nulla pariatur.uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. olore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+              <a href="#" class="bntDownload">Download Printable Resume</a> </div>
+            <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 col-md-offset-1 col-lg-offset-1 proPic"> <img src="http://placehold.it/295x295&text=image1" alt="" class="img-circle topmar"> </div>
           </div>
         </div>
-        <!-- strip -->#}
-      {% endblock %}
-
-      {% block footer %} 
-        <!-- /strip -->
-        <div class="footer-container" id="contact">
-          <div class="lipup"></div>
-          <footer class="wrapper clearfix">
-            <h1>Say Hi, Get In Touch</h1>
-            <p>I'm always available to chat, let me know about your exciting projects.</p>
-            <ul class="social-link clearfix">
-              <li><a href="https://github.com/garyconstable">1</a></li>
-              <li><a href="https://gist.github.com/garyconstable">1</a></li>
-              <li><a href="https://www.linkedin.com/pub/gary-constable/48/9a4/aba">l</a></li>
-              <li><a href="https://twitter.com/Gary_Constable">t</a></li>
-            </ul>	
-            <hr/>
-            <ul>
-              <li><a href="mailto:garyconstable80@gmail.com?Subject=Gary Constable - Website Enquiry">Contact</a></li>
-              <li><a href="https://twitter.com/Gary_Constable">Twitter</a></li>
-              <li><a href="https://www.linkedin.com/pub/gary-constable/48/9a4/aba">Linkedin</a></li>
-            </ul>
-          </footer>
+      </section>
+    {% endblock %}
+     
+  
+    {% block skills %}
+      <section class="technical" id="technical">
+        <div class="container">
+          <div class="heading">
+            <h2>Technical Skills</h2>
+            <p>I can say i’m quite good at</p>
+          </div>
+          <div class="row">
+            <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+              <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="90"> <span class="percent"></span> </span>
+                <h4>Photoshop</h4>
+                <p>Donec accumsan ligula vitae mag na curabitur id</p>
+              </div>
+            </div>
+            <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+              <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="80"> <span class="percent"></span> </span>
+                <h4>Illustrator</h4>
+                <p>Donec accumsan ligula vitae mag na curabitur id</p>
+              </div>
+            </div>
+            <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+              <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="80"> <span class="percent"></span> </span>
+                <h4>Flash</h4>
+                <p>Donec accumsan ligula vitae mag na curabitur id</p>
+              </div>
+            </div>
+            <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+              <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="75"> <span class="percent"></span> </span>
+                <h4>HTML5 / CSS3</h4>
+                <p>Donec accumsan ligula vitae mag na curabitur id</p>
+              </div>
+            </div>
+            <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+              <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="60"> <span class="percent"></span> </span>
+                <h4>jQuery</h4>
+                <p>Donec accumsan ligula vitae mag na curabitur id</p>
+              </div>
+            </div>
+            <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+              <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="65"> <span class="percent"></span> </span>
+                <h4>PHP / MySQL</h4>
+                <p>Donec accumsan ligula vitae mag na curabitur id</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- strip -->
-      {% endblock %}
-    
-    </div>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-route.js"></script>
-    <script src="/assets/js/app.js"></script>
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      </section>
+    {% endblock %}
 
-        ga('create', 'UA-48117621-1', 'auto');
-        ga('send', 'pageview');
-    </script>
+  
+    {% block xp %}
+      <section class="exprience" id="exprience">
+        <div class="container">
+          <div class="heading">
+            <h2>Work Experience</h2>
+            <p>My previous associations</p>
+          </div>
+          <div class="row workDetails">
+            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+              <div class="workYear">Mar,2011<br>
+                Present</div>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+              <div class="arrowpart"></div>
+              <div class="exCon">
+                <h4>UIzards</h4>
+                <h5>Senior UX Designer</h5>
+                <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quom placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui faorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row workDetails">
+            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+              <div class="workYear">Mar,2011<br>
+                Present</div>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+              <div class="arrowpart"></div>
+              <div class="exCon">
+                <h4>Lexind</h4>
+                <h5>Visual / UI Designer</h5>
+                <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quom placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui faorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row workDetails">
+            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+              <div class="workYear">Mar,2011<br>
+                Present</div>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+              <div class="arrowpart"></div>
+              <div class="exCon">
+                <h4>Matrix Media</h4>
+                <h5>Visual / UI Designer</h5>
+                <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quom placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui faorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    {% endblock %}
+
+      
+    {% block education %}
+      <section class="education" id="education">
+        <div class="container">
+          <div class="heading">
+            <h2>Education & Diplomas</h2>
+            <p>What I have done in my academic career</p>
+          </div>
+          <div class="row workDetails">
+            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+              <div class="workYear">Mar,2010</div>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+              <div class="arrowpart"></div>
+              <div class="exCon">
+                <h4>Master Degree of Design</h4>
+                <h5>University of Design</h5>
+                <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quom placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui faorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row workDetails">
+            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+              <div class="workYear">Sept, 2007</div>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+              <div class="arrowpart"></div>
+              <div class="exCon">
+                <h4>Bachelor of Arts</h4>
+                <h5>University of Design</h5>
+                <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quom placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui faorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row workDetails">
+            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+              <div class="workYear">Feb, 2005</div>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+              <div class="arrowpart"></div>
+              <div class="exCon">
+                <h4>Master Degree of Design</h4>
+                <h5>University of Design</h5>
+                <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quom placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui faorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    {% endblock %}
+      
+  
+    {% block portfolio %}
+      <section class="protfolio" id="protfolio">
+        <div class="container">
+          <div class="heading">
+            <h2>Portfolio</h2>
+            <p>showcase of my latest works</p>
+          </div>
+          <div class="portfolioFilter">
+            <ul>
+              <li><a href="#" data-filter="*" class="current">All</a></li>
+              <li><a href="#" data-filter=".photos">Photos</a></li>
+              <li><a href="#" data-filter=".branding">Branding</a></li>
+              <li><a href="#" data-filter=".illustration">Illustration</a></li>
+            </ul>
+          </div>
+          <ul class="portfolioContainer row">
+            <li class="photos col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/1.jpg" title="Project Title1" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image1" alt=""  > </div>
+            </li>
+            <li class="branding illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/2.jpg" title="Project Title2" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image2" alt="" > </div>
+            </li>
+            <li class="illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/3.jpg" title="Project Title3" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image3" alt="" > </div>
+            </li>
+            <li class="branding illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/4.jpg" title="Project Title4" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image4" alt="" > </div>
+            </li>
+            <li class="illustration photos col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/5.jpg" title="Project Title5" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image5" alt="" > </div>
+            </li>
+            <li class="branding photos col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/6.jpg" title="Project Title6" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image6" alt="" > </div>
+            </li>
+            <li class="illustration photos col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/7.jpg" title="Project Title7" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image7" alt="" > </div>
+            </li>
+            <li class="branding col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/8.jpg" title="Project Title8" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image8" alt="" > </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    {% endblock %}
     
-  </body>
-</html>
+  {% endblock %}
+     
+  
+  {% block contact %}
+    {#
+    <section class="contact" id="contact">  
+      <div class="container topCon">
+        <div class="heading">
+          <h2>Get In Touch</h2>
+          <p>Please feel free if you would like to have a chat.</p>
+        </div>
+      </div>
+      <div class="row mapArea">
+        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/?ie=UTF8&amp;ll=-37.817682,144.957595&amp;spn=0.01134,0.026157&amp;t=m&amp;z=16&amp;output=embed"></iframe>
+      </div>  
+    </section>
+    #}
+    <section class="contactDetails" id="contact">
+      <div class="container">
+        <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
+          <h4>Contact details</h4>
+          <p> <i class="fa fa-map-marker fa-lg"></i> Collins Street West Victoria 8007 Australia</p>
+          <p> <i class="fa fa-mobile fa-lg"></i> +1800 1234 56789</p>
+          <p> <i class="fa fa-envelope-o "></i> <a href="mailto:support@websitename.com">support@websitename.com</a></p>
+          <p> <i class="fa fa-link "></i> <a href="www.websitename.com">www.websitename.com</a></p>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-8 col-lg-8 conForm">
+          <h4>Shoot a message!</h4>
+          <div id="message"></div>
+          <form method="post" action="php/contact.php" name="cform" id="cform">
+            <input name="name" id="name" type="text" class="col-xs-12 col-sm-6 col-md-6 col-lg-6" placeholder="Your name..." >
+            <input name="email" id="email" type="email" class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 noMarr" placeholder="Your email..." >
+            <textarea name="comments" id="comments" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your message..."></textarea>
+            <input type="submit" id="submit" name="send" class="submitBnt" value="Send message">
+            <div id="simple-msg"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  {% endblock %}
+      
+  
+  {% block footer %} 
+    <section class="footer" id="footer">
+      <div class="container">
+        <ul>
+          <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+          <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a></li>
+          <li><a href="#"><i class="fa fa-pinterest fa-2x"></i></a></li>
+          <li><a href="#"><i class="fa fa-dribbble fa-2x"></i></a></li>
+          <li><a href="#"><i class="fa fa-rss fa-2x"></i></a></li>
+        </ul>
+      </div>
+    </section>
+  {% endblock %}
+    
+  
+</div>
+  
+      
+{% include 'partials/_footer' %}
