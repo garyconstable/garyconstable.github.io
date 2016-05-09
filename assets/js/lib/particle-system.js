@@ -179,4 +179,4 @@ var particle_system = function(){
 
 }
 
-var x = new particle_system();
+// var x = new particle_system();
