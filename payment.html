@@ -14,4 +14,17 @@
     data-currency="USD">
   </script>
 </form>
+
+<script>
+  var handler = StripeCheckout.configure({
+    key: 'pk_test_lGlOVWnqZQgdQtLtdu6TbTOh',
+    //image: '/img/documentation/checkout/marketplace.png',
+    locale: 'auto',
+    token: function(token) {
+			formIsDisabled = false;
+			console.log(token);
+    }
+  });
+</script>
+
 </body>
