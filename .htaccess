@@ -1,2 +1,2 @@
-
-ErrorDocument 404 /
+RewriteEngine on 
+RewriteRule ^(.*)$ http://garyconstable.uk/$1 [R=301,L]
