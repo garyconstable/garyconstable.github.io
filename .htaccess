@@ -1,2 +1,2 @@
 RewriteEngine on 
-RewriteRule ^(.*)$ http://garyconstable.uk/$1 [R=301,L]
+RewriteRule ^(.*)$ https://garyconstable.dev/$1 [R=301,L]
